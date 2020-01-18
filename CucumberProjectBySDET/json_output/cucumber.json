@@ -1,0 +1,216 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 288297,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Add New Customer",
+        "description": "",
+        "id": "hook-in-cucumber;add-new-customer",
+        "after": [
+          {
+            "result": {
+              "duration": 55980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3682276688,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on add customer page",
+            "match": {
+              "location": "HooksStepDefination.user_is_on_add_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97965,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user fills the customer details",
+            "match": {
+              "location": "HooksStepDefination.user_fills_the_customer_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59712,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "customer is added",
+            "match": {
+              "location": "HooksStepDefination.customer_is_added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 97965,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Edit Customer",
+        "description": "",
+        "id": "hook-in-cucumber;edit-customer",
+        "after": [
+          {
+            "result": {
+              "duration": 44318,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 75573,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on add customer page",
+            "match": {
+              "location": "HooksStepDefination.user_is_on_add_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56913,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user edit contact details",
+            "match": {
+              "location": "HooksStepDefination.user_edit_contact_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127354,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "contact details updated",
+            "match": {
+              "location": "HooksStepDefination.contact_details_updated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 80238,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Delete customer",
+        "description": "",
+        "id": "hook-in-cucumber;delete-customer",
+        "after": [
+          {
+            "result": {
+              "duration": 67176,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64843,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on delete customer page",
+            "match": {
+              "location": "HooksStepDefination.user_is_on_delete_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73240,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user delete customer",
+            "match": {
+              "location": "HooksStepDefination.user_delete_customer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90035,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "customer deleted",
+            "match": {
+              "location": "HooksStepDefination.customer_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "hook in cucumber",
+    "description": "",
+    "id": "hook-in-cucumber",
+    "keyword": "Feature",
+    "uri": "C:/workspace2/CucumberProjectBySDET/Features/Hooks.feature"
+  }
+]
